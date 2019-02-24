@@ -19,19 +19,27 @@
       </p>
     </div>
     <h3>Empezar a cifrar con Sherlock </h3>
-    <button onclick="botonCifrar()" id="botVamos">Vamos!</button>
+    <button id="botVamos">Vamos!</button>
     <br>
     <div id="divCifrar" class="hidden">
         Desplazamiento:
-        <input id="input-saltos" type="number" min="1" max="5" class="input-desplazar" placeholder=" ">
+        <input id="desplazamiento" type="number" min="1" max="10" class="input-desplazar"/>
         <p>Ingresa el texto</p>
-        <textarea id="areaTexto" type="texto" rows="4" cols="50" placeholder="Funciona sin numeros ni caracteres"></textarea>
+        <textarea id="area1" type="texto" rows="4" cols="50" placeholder="Funciona sin numeros ni caracteres"></textarea>        
         <br>
-        <button id="cipher" onclick="cipherText()">Cifrar</button>
-        <button>Limpiar</button>
+        <button id="cipher">Cifrar</button>
+      <br>
+      <textarea id="area2" type="texto" rows="4" cols="50" placeholder="mensaje cifrado"></textarea>
+      <br>
+      <button id="clean">Limpiar</button>
     </div>
+
+    
+    
+
+
     <script type="text/javaScript" src="index.js"></script>
-    <script src="cipher.js"></script>
+    <script type="text/javaScript" src="cipher.js"></script>
     
   </body>
 </html>
