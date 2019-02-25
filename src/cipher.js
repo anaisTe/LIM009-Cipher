@@ -17,8 +17,21 @@ window.cipher = {
     }
     return text_result;
   },
-  decode: () => {
+  decode: (salida, texto) => {
     /* Acá va tu código */
-    
+    let decifrado = '';
+      for (let i = 0; i < texto.length; i++) {
+        let number1 = decode_texto.charCodeAt(i);
+        if(number1 >= 65 && number1 <= 90) {
+        let input_salto = parseInt(salida);
+        let pen = (number1+65-input_salto)%26+65;
+        let res = String.fromCharCode (pen);
+        decifrado += res;
+      } 
+      if(number1 === 32){
+        decifrado += ' ';
+      }
+    }
+    return decifrado;
   }
 }

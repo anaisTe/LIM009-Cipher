@@ -7,11 +7,10 @@
   </head>
   
   <body>
-    <div>
       <h1 class="titulo">Sherlock 🔎</h1>
     </div>
     <div>
-      <p>Cifrar significa codificar. El cifrado César es uno de los primeros métodos de cifrado conocidos.
+      <p class="intro">Cifrar significa codificar. El cifrado César es uno de los primeros métodos de cifrado conocidos.
          El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
          El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, 
          es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo
@@ -34,7 +33,22 @@
       <button id="clean">Limpiar</button>
     </div>
 
-    
+    <h3>Tienes un código. ¿Quieres saber que siginifica?</h3> 
+    <button id="botComenzar">Comenzar</button>
+    <br>
+
+    <div id="divDecifrar" class="hidden">
+      Desplazamiento:
+      <input id="salto" type="number" min="1" max="10" class="input-desplazar"/>
+      <p>Mensaje Misterioso</p>
+      <textarea id="caja1" type="texto" rows="4" cols="50" placeholder="Escribe el código"></textarea>
+      <br>
+      <button id="decode">Descifrar</button>
+      <br>
+      <textarea id="caja2" type="texto" rows="4" cols="50" placeholder="Mensaje Cifrado"></textarea>
+      <button id="cleaner">Limpiar</button>
+      
+    </div>
     
 
 
