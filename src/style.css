@@ -1,6 +1,10 @@
 .titulo{
     text-align: center;
     font-size: 50px;
+    background-color: #FFEA00;
+}
+.todo{
+  text-align: center;
 }
 .hidden{
     margin-top: 20px;
@@ -9,6 +13,9 @@
 .show{
 
   display: block;
+}
+body{
+  margin: 0;
 }
 
 button{
@@ -31,7 +38,14 @@ h3{
 .intro{
   font-size: 20px;
   font-family: cursive;
+  padding: 50px;
+  padding-top: 20px;
 }
-p{
-  font-family: 
+
+.img{
+  position: absolute;
+  width: 1500px;
+  height: 700px;
+  opacity: 0.1;
+  z-index: -1;
 }

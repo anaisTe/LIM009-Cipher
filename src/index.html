@@ -7,7 +7,8 @@
   </head>
   
   <body>
-      <h1 class="titulo">Sherlock 🔎</h1>
+    <img class="img" src="../image/irene.svg">
+    <div class="titulo">Sherlock 🔎</div>
     </div>
     <div>
       <p class="intro">Cifrar significa codificar. El cifrado César es uno de los primeros métodos de cifrado conocidos.
@@ -17,38 +18,41 @@
          de posiciones (desplazamiento) más adelante en el mismo alfabeto.
       </p>
     </div>
-    <h3>Empezar a cifrar con Sherlock </h3>
-    <button id="botVamos">Vamos!</button>
-    <br>
-    <div id="divCifrar" class="hidden">
-        Desplazamiento:
-        <input id="desplazamiento" type="number" min="1" max="10" class="input-desplazar"/>
-        <p>Ingresa el texto</p>
-        <textarea id="area1" type="texto" rows="4" cols="50" placeholder="Funciona sin numeros ni caracteres"></textarea>        
+
+    <div class="todo">
+        <h3>Empezar a cifrar con Sherlock </h3>
+        <button id="botVamos">Vamos!</button>
         <br>
-        <button id="cipher">Cifrar</button>
-      <br>
-      <textarea id="area2" type="texto" rows="4" cols="50" placeholder="mensaje cifrado"></textarea>
-      <br>
-      <button id="clean">Limpiar</button>
+        <div id="divCifrar" class="hidden">
+            Desplazamiento:
+            <input id="desplazamiento" type="number" min="1" max="10" class="input-desplazar"/>
+            <p>Ingresa el texto</p>
+            <textarea id="area1" type="texto" rows="4" cols="50" placeholder="Funciona sin numeros ni caracteres"></textarea>        
+            <br>
+            <button id="cipher">Cifrar</button>
+          <br>
+          <textarea id="area2" type="texto" rows="4" cols="50" placeholder="mensaje cifrado"></textarea>
+          <br>
+          <button id="clean">Limpiar</button>
+        </div>
+    
+        <h3>Tienes un código. ¿Quieres saber que siginifica?</h3> 
+        <button id="botComenzar">Comenzar</button>
+        <br>
+        <div id="divDecifrar" class="hidden">
+          Desplazamiento:
+          <input id="salto" type="number" min="1" max="10" class="input-desplazar"/>
+          <p>Mensaje Misterioso</p>
+          <textarea id="caja1" type="texto" rows="4" cols="50" placeholder="Escribe el código"></textarea>
+          <br>
+          <button id="decode">Descifrar</button>
+          <br>
+          <textarea id="caja2" type="texto" rows="4" cols="50" placeholder="Mensaje Cifrado"></textarea>
+          <br>
+          <button id="cleaner">Limpiar</button>  
+        </div>
     </div>
-
-    <h3>Tienes un código. ¿Quieres saber que siginifica?</h3> 
-    <button id="botComenzar">Comenzar</button>
-    <br>
-
-    <div id="divDecifrar" class="hidden">
-      Desplazamiento:
-      <input id="salto" type="number" min="1" max="10" class="input-desplazar"/>
-      <p>Mensaje Misterioso</p>
-      <textarea id="caja1" type="texto" rows="4" cols="50" placeholder="Escribe el código"></textarea>
-      <br>
-      <button id="decode">Descifrar</button>
-      <br>
-      <textarea id="caja2" type="texto" rows="4" cols="50" placeholder="Mensaje Cifrado"></textarea>
-      <button id="cleaner">Limpiar</button>
-      
-    </div>
+    
     
 
 
