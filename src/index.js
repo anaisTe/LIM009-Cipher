@@ -1,7 +1,6 @@
-
-
-
-
+// VanillaJS v1.0
+// Released into the Public Domain
+// Your code goes here:
 let texto_ingresado;
 let des;
 
@@ -19,12 +18,12 @@ function cipherText(){
   texto_ingresado = document.getElementById("area1").value.toUpperCase();
   des = document.getElementById("desplazamiento").value;
   const result = cipher.encode(des, texto_ingresado);
-  document.getElementById("area2").value = result;
+  document.getElementById("area2").innerHTML = result;
 }
 
 document.getElementById('clean').addEventListener("click", function() {
   document.getElementById("area1").value = "";
-  document.getElementById("area2").value = "";
+  document.getElementById("area2").innerHTML = "";
   document.getElementById("desplazamiento").value = "";
 });
 
@@ -42,14 +41,14 @@ function divDecode(){
   decode_texto = document.getElementById("caja1").value.toUpperCase();
   saltos = document.getElementById("salto").value;
   const total = cipher.decode(saltos, decode_texto);
-  document.getElementById("caja2").value = total;
+  document.getElementById("caja2").innerHTML = total;
 }
 
 
   document.getElementById("cleaner").addEventListener("click", clean_1);
   function clean_1(){
     document.getElementById("caja1").value = "";
-    document.getElementById("caja2").value = "";
+    document.getElementById("caja2").innerHTML = "";
     document.getElementById("salto").value = "";
   }
 
