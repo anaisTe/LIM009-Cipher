@@ -1,9 +1,10 @@
 # Sherlock 🔎
-##¿Qué tan importante es para ti tener una contraseña segura?
+
+## ¿Qué tan importante es para ti tener una contraseña segura?
 
 La seguridad de tu información y todo lo que compartes en línea es tan importante hoy en día.  Puesto que a cada momento se está expuesto a ser víctimas de suplantación de identidad digital, problemas de acceso a los datos por parte de terceros (hackers) y la falta de seguridad en la red, hacen que lo pienses dos veces antes de colocar tu fecha de nacimiento como contraseña. Internet puede ser un arma de doble filo, sólo es necesario una grieta para acceder a los datos del usuario. En ocasiones, la despreocupación por parte del usuario, puede ser prevenido. Por esta razón fue creada Sherlock y funciona gracias al cifrado Cesar.
 
-##¿Que es cifrado cesar?
+## ¿Que es cifrado cesar?
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
