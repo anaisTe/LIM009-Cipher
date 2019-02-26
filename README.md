@@ -31,3 +31,5 @@ Que estas esperando …. Vamos!
 - Escribe el mensaje.
 - Presiona cifrar o descifrar para tener el resultado.
 
+## Diagrama de flujo 
+![dop](https://www.lucidchart.com/publicSegments/view/c3588f50-d4ad-4abb-b179-47496ba00f0a/image.jpeg)
