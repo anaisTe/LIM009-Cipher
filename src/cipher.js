@@ -1,8 +1,8 @@
 window.cipher = {
-  encode: (offset, string) => {
+  encode: (offset, texto_ingresado) => {
     /* Acá va tu código */
     let text_result = '';
-    for (let i = 0; i < string.length; i++) {
+    for (let i = 0; i < texto_ingresado.length; i++) {
       let number = texto_ingresado.charCodeAt(i);
       if(number >= 65 && number <= 90) {
         let desplazamiento = parseInt(offset);
@@ -13,14 +13,14 @@ window.cipher = {
       if(number === 32){
         text_result += ' ';
       }
-      
     }
     return text_result;
   },
-  decode: (salida, texto) => {
+      
+  decode: (salida, decode_texto) => {
     /* Acá va tu código */
     let decifrado = '';
-      for (let i = 0; i < texto.length; i++) {
+      for (let i = 0; i < decode_texto.length; i++) {
         let number1 = decode_texto.charCodeAt(i);
         if(number1 >= 65 && number1 <= 90) {
         let input_salto = parseInt(salida);
