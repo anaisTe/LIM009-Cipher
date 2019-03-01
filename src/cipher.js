@@ -1,5 +1,5 @@
 window.cipher = {
-  encode: (offset, texto_ingresado) => {
+  encode: (offset,texto_ingresado) => {
     /* Acá va tu código */
     let text_result = '';
     for (let i = 0; i < texto_ingresado.length; i++) {
@@ -17,7 +17,7 @@ window.cipher = {
     return text_result;
   },
       
-  decode: (salida, decode_texto) => {
+  decode: (salida,decode_texto) => {
     /* Acá va tu código */
     let decifrado = '';
       for (let i = 0; i < decode_texto.length; i++) {
