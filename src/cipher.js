@@ -1,17 +1,20 @@
 window.cipher = {
   encode: (offset,texto_ingresado) => {
     /* Acá va tu código */
-    let text_result = '';
+    let text_result = 'A';
+    let number;
     for (let i = 0; i < texto_ingresado.length; i++) {
-      let number = texto_ingresado.charCodeAt(i);
+        number = texto_ingresado.charCodeAt(i);
       if(number >= 65 && number <= 90) {
-        let desplazamiento = parseInt(offset);
-        let result = (number-65+desplazamiento)%26+65;
-        let sum = String.fromCharCode(result); 
-        text_result += sum;
+        text_result += String.fromCharCode((number-65+parseInt(offset))%26+65);
       }
-      if(number === 32){
+      else if(number === 32){
         text_result += ' ';
+      }
+      else if(number >=97 && number <=122){
+        text_result += String.fromCharCode((number-97+parseInt(offset))%26+97);
+      }else{
+        text_result = "olvidaste colocar tu mensaje" ;
       }
     }
     return text_result;
@@ -19,19 +22,22 @@ window.cipher = {
       
   decode: (salida,decode_texto) => {
     /* Acá va tu código */
-    let decifrado = '';
+    let descifrado = '';
+    let number1;
       for (let i = 0; i < decode_texto.length; i++) {
-        let number1 = decode_texto.charCodeAt(i);
+        number1 = decode_texto.charCodeAt(i);
         if(number1 >= 65 && number1 <= 90) {
-        let input_salto = parseInt(salida);
-        let pen = (number1+65-input_salto)%26+65;
-        let res = String.fromCharCode (pen);
-        decifrado += res;
+        descifrado += String.fromCharCode((number1-90-parseInt(salida))%26+90);
       } 
-      if(number1 === 32){
-        decifrado += ' ';
+      else if(number1 === 32){
+        descifrado += ' ';
+      }
+      else if(number1 >=97 && number1 <=122){
+        descifrado += String.fromCharCode((number1-122-parseInt(salida))%26+122);
+      }else{
+        descifrado = "olvidaste colocar tu mensaje";
       }
     }
-    return decifrado;
+    return descifrado;
   }
 }

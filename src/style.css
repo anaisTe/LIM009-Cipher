@@ -2,6 +2,7 @@
     text-align: center;
     font-size: 50px;
     background-color: #FFEA00;
+    padding: 20px;
 }
 .todo{
   text-align: center;
@@ -16,6 +17,13 @@
 }
 body{
   margin: 0;
+}
+
+#area1{
+  border-radius: 10px;
+}
+#caja1{
+  border-radius: 10px;
 }
 
 button{

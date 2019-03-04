@@ -5,7 +5,7 @@
 
 
 let texto_ingresado = ' ';
-let des;
+let offset;
 
   document.getElementById("botVamos").addEventListener("click", divCifrar);
   function divCifrar(){
@@ -15,9 +15,9 @@ let des;
   document.getElementById("cipher").addEventListener("click", cipherText);
   function cipherText(){
     document.getElementById("area2").value = '';
-    texto_ingresado = document.getElementById("area1").value.toUpperCase();
-    des = document.getElementById("desplazamiento").value;
-    const result = cipher.encode(des, texto_ingresado);
+    texto_ingresado = document.getElementById("area1").value;
+    offset = document.getElementById("desplazamiento").value;
+    const result = cipher.encode(offset,texto_ingresado);
     document.getElementById("area2").innerHTML = result;
   }
   
@@ -29,7 +29,7 @@ let des;
 
   //Div de decifrado
   let decode_texto =' ';
-  let saltos;
+  let salida;
   document.getElementById("botComenzar").addEventListener("click", divDecifrar);
   function divDecifrar(){
     document.getElementById("divDecifrar").className += "show";
@@ -38,9 +38,9 @@ let des;
   document.getElementById("decode").addEventListener("click", divDecode);
   function divDecode(){
     document.getElementById("caja2").value = '';
-    decode_texto = document.getElementById("caja1").value.toUpperCase();
-    saltos = document.getElementById("salto").value;
-    const total = cipher.decode(saltos, decode_texto);
+    decode_texto = document.getElementById("caja1").value;
+    salida = document.getElementById("salto").value;
+    const total = cipher.decode(salida,decode_texto);
     document.getElementById("caja2").innerHTML = total;
   }
   
