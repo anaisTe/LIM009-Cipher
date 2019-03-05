@@ -1,11 +1,21 @@
+
+@font-face {
+  font-family: 'Omnes';
+  src: url('../fonts/omnes-medium-webfont.ttf'); 
+}
+
 .titulo{
     text-align: center;
     font-size: 50px;
     background-color: #FFEA00;
     padding: 20px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 1);
 }
 .todo{
+  display: flex;
+  justify-content: space-around;
   text-align: center;
+  margin-top: 80px;
 }
 .hidden{
     margin-top: 20px;
@@ -16,6 +26,7 @@
   display: block;
 }
 body{
+  font-family: Omnes;
   margin: 0;
 }
 
@@ -35,7 +46,6 @@ button{
     margin-top: 10px;
     margin-bottom: 30px;
     font-family: cursive;
-    background-color: darkgray;
 }
 
 h3{
@@ -44,17 +54,19 @@ h3{
   font-size: 20px;
 }
 
-.intro{
-  font-size: 20px;
-  font-family: cursive;
-  padding: 50px;
-  padding-top: 20px;
-}
-
 .img{
   position: absolute;
   width: 1500px;
   height: 700px;
   opacity: 0.1;
   z-index: -1;
+}
+
+.card{
+  background-color: #fff;
+  border-radius: 80px 10px 80px 10px;
+  border: 0px solid #000000;
+  font-family: Omnes;
+  padding: 20px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
