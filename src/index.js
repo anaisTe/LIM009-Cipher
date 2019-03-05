@@ -7,11 +7,6 @@
 let texto_ingresado = ' ';
 let offset;
 
-  // document.getElementById("botVamos").addEventListener("click", divCifrar);
-  // function divCifrar(){
-  //   document.getElementById("divCifrar").className += "show"; 
-  // }
-  
   document.getElementById("cipher").addEventListener("click", cipherText);
   function cipherText(){
     document.getElementById("area2").value = '';
@@ -30,11 +25,7 @@ let offset;
   //Div de decifrado
   let decode_texto =' ';
   let salida;
-  // document.getElementById("botComenzar").addEventListener("click", divDecifrar);
-  // function divDecifrar(){
-  //   document.getElementById("divDecifrar").className += "show";
-  // }
-  
+
   document.getElementById("decode").addEventListener("click", divDecode);
   function divDecode(){
     document.getElementById("caja2").value = '';

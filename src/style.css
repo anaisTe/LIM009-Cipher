@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 10%;
 }
 .hidden{
     margin-top: 20px;

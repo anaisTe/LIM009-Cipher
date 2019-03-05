@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
@@ -8,44 +8,41 @@
   </head>
   
   <body>
-    <img class="img" src="../image/irene.svg">
+    <img class="img" src="../image/irene.svg" alt="girl">
     <div class="titulo">Sherlock 🔎</div>
     <div class="todo">
         <div class="card">
           <h3>Empezar a cifrar con Sherlock </h3>
-          <!-- <button id="botVamos">Vamos!</button> -->
           <br>
           <div id="divCifrar">
               Desplazamiento:
               <input id="desplazamiento" type="number" min="1" max="33" class="input-desplazar"/>
               <p>Ingresa el texto:</p>
-              <textarea id="area1" type="texto" rows="4" cols="50" placeholder="Funciona sin numeros ni caracteres"></textarea>        
+              <textarea id="area1" rows="4" cols="50" placeholder="Funciona sin numeros ni caracteres"></textarea>        
               <br>
               <button id="cipher">Cifrar</button>
               <button id="clean">Limpiar</button>
               <br>
-              <p id="area2" type="texto" rows="4" cols="50" placeholder="mensaje cifrado"></p>
+              <p id="area2"></p>
               <br>
           </div>
         </div>
     
         <div class="card">
-          <h3>Tienes un código. ¿Quieres saber que siginifica?</h3> 
-        <!-- <button id="botComenzar">Comenzar</button> -->
-        <br>
-        <div id="divDecifrar">
-          Desplazamiento:
-          <input id="salto" type="number" min="1" max="33" class="input-desplazar"/>
-          <p>Mensaje Misterioso:</p>
-          <textarea id="caja1" type="texto" rows="4" cols="50" placeholder="Escribe el código"></textarea>
+          <h3>Tienes un código. ¿Quieres saber que siginifica?</h3>         
           <br>
-          <button id="decode">Descifrar</button>
-          <button id="cleaner">Limpiar</button>
-          <br>
-          <p id="caja2" type="texto" rows="4" cols="50" placeholder="Mensaje Cifrado"></p>
-          <br>
-            
-        </div>
+          <div id="divDecifrar">
+              Desplazamiento:
+              <input id="salto" type="number" min="1" max="33" class="input-desplazar"/>
+              <p>Mensaje Misterioso:</p>
+              <textarea id="caja1" rows="4" cols="50" placeholder="Escribe el código"></textarea>
+              <br>
+              <button id="decode">Descifrar</button>
+              <button id="cleaner">Limpiar</button>
+              <br>
+              <p id="caja2"></p>
+              <br>   
+          </div>
         </div>
     </div>
     
