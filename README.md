@@ -1,6 +1,6 @@
 # Sherlock 🔎
 
-## ¿Qué tan importante es para ti tener una contraseña segura?
+## ¿Qué tan importante es para ti tener una contraseña segura? ⚠️
 
 La seguridad de tu información y todo lo que compartes en línea es tan importante hoy en día.  Puesto que a cada momento se está expuesto a ser víctimas de suplantación de identidad digital, problemas de acceso a los datos por parte de terceros (hackers) y la falta de seguridad en la red, hacen que lo pienses dos veces antes de colocar tu fecha de nacimiento como contraseña. Internet puede ser un arma de doble filo, sólo es necesario una grieta para acceder a los datos del usuario. En ocasiones, la despreocupación por parte del usuario, puede ser prevenido. Por esta razón fue creada Sherlock y funciona gracias al cifrado Cesar.
 
@@ -18,7 +18,7 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-## Conoce a Sherlock
+## Conoce a Sherlock 🕵️‍♂️
 
 Sherlock es una página web interactiva que te permite cifrar y descifrar mensajes, esto debe a la implementación del Cifrado Cesar para su funcionalidad. ¿Quieres evitar que tus redes sociales sean hackeadas? Confía en Sherlock, te bridará la solución con solo un botón y tendrás la contraseña más segura para que puedas seguir navegando y compartiendo sin problema alguno. ¿Deseas mandar un mensaje encriptado y que nadie más se entere? Usa Sherlock y ten la conversación que tanto deseas con toda la privacidad que deseas. ¿Tienes un mensaje codificado y no sabes que significa? Aquí te podemos ayudar a que descubras el mensaje secreto. 
 Que estas esperando …. Vamos!
@@ -36,6 +36,6 @@ Que estas esperando …. Vamos!
 
 ## Sobre la página 👩‍💻
 
-Sherlock aun se encuentra en fase beta y estamos dispuestos a mejorar, deja tu comentario si se presenta algo extraño.... Espero que te diviertas &#128522;
-[Sherlock](https://anaiste.github.io/LIM009-Cipher/src/index.html)
+Sherlock aun se encuentra en fase beta y estamos dispuestos a mejorar, deja tu comentario si se presenta algo extraño.... Espero que te diviertas &#128522; Me encuentro aquí
+[Sherlock 🔎](https://anaiste.github.io/LIM009-Cipher/src/index.html)
 
