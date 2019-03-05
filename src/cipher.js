@@ -1,7 +1,7 @@
 window.cipher = {
   encode: (offset,texto_ingresado) => {
     /* Acá va tu código */
-    let text_result = 'A';
+    let text_result = '';
     let number;
     for (let i = 0; i < texto_ingresado.length; i++) {
         number = texto_ingresado.charCodeAt(i);
