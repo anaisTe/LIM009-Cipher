@@ -33,3 +33,9 @@ Que estas esperando …. Vamos!
 
 ## Diagrama de flujo 
 ![dop](https://www.lucidchart.com/publicSegments/view/c3588f50-d4ad-4abb-b179-47496ba00f0a/image.jpeg)
+
+## Sobre la página 👩‍💻
+
+Sherlock aun se encuentra en fase beta y estamos dispuestos a mejorar, deja tu comentario si se presenta algo extraño.... Espero que te diviertas &#128522;
+[Sherlock](https://anaiste.github.io/LIM009-Cipher/src/index.html)
+
