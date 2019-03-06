@@ -8,17 +8,16 @@
   </head>
   
   <body>
-    <img class="img" src="../image/irene.svg" alt="girl">
     <div class="titulo">Sherlock 🔎</div>
     <div class="todo">
-        <div class="card">
+        <div class="card1">
           <h3>Empezar a cifrar con Sherlock </h3>
           <br>
           <div id="divCifrar">
               Desplazamiento:
-              <input id="desplazamiento" type="number" min="1" max="33" class="input-desplazar"/>
+              <input id="desplazamiento" type="number" min="1" max="33" class="input-des"/>
               <p>Ingresa el texto:</p>
-              <textarea id="area1" rows="4" cols="50" placeholder="Funciona sin numeros ni caracteres"></textarea>        
+              <textarea id="area1" class="text1" rows="4" cols="50" placeholder="Funciona sin numeros ni caracteres"></textarea>        
               <br>
               <button id="cipher">Cifrar</button>
               <button id="clean">Limpiar</button>
@@ -28,29 +27,26 @@
           </div>
         </div>
     
-        <div class="card">
-          <h3>Tienes un código. ¿Quieres saber que siginifica?</h3>         
+        <div class="card2">
+          <h3>¿Tienes un código? ¿Quieres saber que significa?</h3> 
+        <br>
+        <div id="divDecifrar">
+          Desplazamiento:
+          <input id="salto" type="number" min="1" max="33" class="input-des"/>
+          <p>Mensaje Misterioso:</p>
+          <textarea id="caja1" class="text1" rows="4" cols="50" placeholder="Escribe el código"></textarea>
           <br>
-          <div id="divDecifrar">
-              Desplazamiento:
-              <input id="salto" type="number" min="1" max="33" class="input-desplazar"/>
-              <p>Mensaje Misterioso:</p>
-              <textarea id="caja1" rows="4" cols="50" placeholder="Escribe el código"></textarea>
-              <br>
-              <button id="decode">Descifrar</button>
-              <button id="cleaner">Limpiar</button>
-              <br>
-              <p id="caja2"></p>
-              <br>   
-          </div>
+          <button id="decode">Descifrar</button>
+          <button id="cleaner">Limpiar</button>
+          <br>
+          <p id="caja2"></p>
+          <br>
+            
         </div>
-    </div>
-    
-    
-
-
-    <script type="text/javaScript" src="index.js"></script>
-    <script type="text/javaScript" src="cipher.js"></script>
+        </div>
+    </div>    
+    <script src="index.js"></script>
+    <script src="cipher.js"></script>
     
   </body>
 </html>
