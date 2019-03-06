@@ -10,31 +10,27 @@
     padding: 20px;
     box-shadow: 0px 0 10px rgba(0, 0, 0, 1);
 }
+
 .todo{
   display: flex;
   justify-content: space-around;
   text-align: center;
   margin-top: 80px;
 }
+
 .hidden{
     margin-top: 20px;
     display: none;
 }
-.show{
 
+.show{
   display: block;
 }
+
 body{
   font-family: Omnes;
   margin: 0;
   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-}
-
-#area1{
-  border-radius: 10px;
-}
-#caja1{
-  border-radius: 10px;
 }
 
 button{
@@ -80,4 +76,5 @@ h3{
   font-family: Omnes;
   font-size: 16px;
   max-width: 450px;
+  border-radius: 10px;
 }
